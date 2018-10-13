@@ -22,6 +22,21 @@ body {
   margin: 0 auto;
 }
 
+.btn {
+    color: #fff;
+    background-color: #3abba0;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #3abba0;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #3abba0;
+}
+
 header {
   background-color: #000;
   color: white;
@@ -107,9 +122,10 @@ header a:hover {
 }
 
 /* koniec dropdown */
+
 .carousel {
   background: linear-gradient(to bottom, #fafafa 0%, #f6f6f6 70%,#d3d2da  100%);
-  height: 500px;
+  height: 505px;
 }
 .carousel .container{
   height: 100%;
@@ -170,22 +186,69 @@ header a:hover {
 }
 .motto button {
   width: 260px;
-  color: #fff;
-  background-color: #3abba0;
-  padding: 10px;
-  border-radius: 10px;
-  outline: none;
-  border: 1px solid #3abba0;
   font-size: 1.5rem;
-  text-transform: uppercase;
   margin-left: 30px;
   margin-bottom: -15px;
 }
 
-.motto button:hover {
+/* .motto button:hover {
   background-color: #fff;
   color: #3abba0;
-}
+} */
 
 /* koniec sekcji carousel */
 
+.products .container {
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+}
+.products .product-first {
+  background-image: url("../images/box1_img.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 33.3%;
+  margin-right: 30px;
+  margin-top: 25px;
+}
+
+.products .product-second {
+  background-image: url("../images/box2_img.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 33.3%;
+  margin-right: 30px;
+  margin-top:25px;
+}
+.products .note {
+  width: 33.3%;
+  border: 1px solid #a7a7a7;
+  padding: 10px 20px;
+  /* margin-right: 35px; */
+  margin-top:25px;
+  height: 260px;
+}
+.products .note p {
+  color: #a7a7a7;
+  line-height: 1.3rem;
+  font-size:0.8rem;
+
+}
+.products .note h3 {
+  font-weight: 400;
+  border-bottom: 8px solid #3abba0;
+  padding-bottom: 2px;
+  margin-bottom: 15px;
+  margin-top:10px;
+  width: 60%;
+
+  position: relative;
+  top: 5px;
+}
+/* koniec products section */
+
+.price-list {
+  background-color: #f3f3f3;
+  height: 720px;
+  margin-top: 100px;
+}
