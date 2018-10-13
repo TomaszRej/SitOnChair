@@ -6,6 +6,9 @@
 
 html{
   font-size: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+
 }
 
 body {
@@ -67,3 +70,87 @@ header a:hover {
   color: #3abba0;
 }
 /* koniec headera */
+
+
+/* #fafafa u gory 
+f6f6f6 na srodku 
+#d3d2da na dole */
+.carousel {
+  background: linear-gradient(to bottom, #fafafa 0%, #f6f6f6 70%,#d3d2da  100%);
+  height: 500px;
+}
+.carousel .container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carousel .container .chair-motto
+{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.carousel .container .chair-motto .motto {
+  width: 40%; 
+   height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 110px;
+}
+.carousel .container .chair-motto .black-chair {
+  content: '';
+  display: block;
+  background-image: url("../images/black_chair.png");
+  background-position: center;
+  background-size: cover;
+  width: 40%;
+  height: 84%;
+  margin-top: 55px;
+
+}
+.carousel .container > span {
+  color: #3abba0;
+  font-size: 70px;
+
+}
+.motto h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 400;
+
+}
+.motto h1 span {
+  color: #3abba0;
+  font-weight: 700;
+}
+.motto p {
+  width: 400px;
+  text-align:center;
+  line-height: 1.5rem ;
+  font-size: 0.8rem;
+}
+.motto button {
+  width: 260px;
+  color: #fff;
+  background-color: #3abba0;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #3abba0;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-bottom: -15px;
+}
+
+.motto button:hover {
+  background-color: #fff;
+  color: #3abba0;
+}
