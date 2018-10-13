@@ -220,6 +220,19 @@ header a:hover {
   margin-right: 30px;
   margin-top:25px;
 }
+.product-first p, .product-second p {
+  width: 50%;
+  /* padding-left: 10px; */
+  margin-left: 10px;
+ 
+}
+.strip {
+  background-color: rgba( 255, 255, 255, 0.4);
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-top: 150px;
+}
+
 .products .note {
   width: 33.3%;
   border: 1px solid #a7a7a7;
@@ -234,14 +247,17 @@ header a:hover {
   font-size:0.8rem;
 
 }
-.products .note h3 {
-  font-weight: 400;
+.bottom-border {
   border-bottom: 8px solid #3abba0;
   padding-bottom: 2px;
+
+}
+.products .note h3 {
+  font-weight: 400;
+
   margin-bottom: 15px;
   margin-top:10px;
   width: 60%;
-
   position: relative;
   top: 5px;
 }
