@@ -12,14 +12,12 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 header {
   background-color: #000;
-
   color: white;
-  /* width: 100%; */
 }
 
 ul li {
-  text-align: right;
   list-style: none;
 }
