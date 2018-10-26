@@ -96,7 +96,13 @@ header a:hover {
   left: 50%;
   top: 40px;
   padding: 10px 0;
-  /* text-align: center; */
+  /*style testowe*/
+}
+.around-dropdown {
+
+  height: 100%;
+  width: 100%;
+  padding:0px;
 }
 #dropdown:before {
   content: "";
