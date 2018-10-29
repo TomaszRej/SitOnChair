@@ -99,10 +99,8 @@ header a:hover {
   /*style testowe*/
 }
 .around-dropdown {
-
-  height: 100%;
-  width: 100%;
-  padding:0px;
+  height: 150%;
+  width: 150%;
 }
 #dropdown:before {
   content: "";
@@ -473,7 +471,7 @@ textarea {
   width: 70%;
   margin-top: -70px;
 }
-.checkbox {
+.checkbox-form {
   display: flex;
   width: 350px;
   justify-content: center;
@@ -485,7 +483,7 @@ textarea {
   cursor: pointer;
 }
 
-.checkbox p {
+.checkbox-form p {
   margin-left: 65px;
 }
 
@@ -576,3 +574,4 @@ footer .container {
 footer .container div:last-child span {
   font-weight: 700;
 }
+

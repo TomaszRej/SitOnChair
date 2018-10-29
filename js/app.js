@@ -22,22 +22,22 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 
-    // const li = document.querySelector('header ul li:first-child');
-    // const dropdown = document.querySelector('.around-dropdown');
-    // console.log(dropdown);
-    // dropdown.style.display = 'none';
+    const li = document.querySelector('header ul li:first-child');
+    const dropdown = document.querySelector('.around-dropdown');
+    console.log(dropdown);
+    dropdown.style.display = 'none';
+
     //
-    //
-    // li.addEventListener('mouseenter', function () {
-    //     dropdown.style.display = "block";
-    // });
-    // li.addEventListener('mouseout', function () {
-    //     setTimeout(function () {
-    //         dropdown.style.display = "none";
-    //     },1000)
-    //
-    //
-    // });
+    li.addEventListener('mouseover', function () {
+        dropdown.style.display = "block";
+    });
+    li.addEventListener('mouseout', function () {
+
+        dropdown.style.display = "none";
+
+
+
+    });
 
 
 });
