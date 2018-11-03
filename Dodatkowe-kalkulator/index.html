@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Sit On Chair</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
 </head>
 
 <body>
@@ -19,16 +20,16 @@
             <div class="form">
                 <div class="drop_down_list">
                     <span class="list_label">Wybierz rodzaj</span>
-                    <span class="list_arrow"></span>
+                    <span id="forKind" class="list_arrow"></span>
                     <ul class="list_panel">
-                        <li>Clair</li>
-                        <li>Margarita</li>
-                        <li>Selena</li>
+                        <li data-price="300">Clair</li>
+                        <li data-price="400">Margarita</li>
+                        <li data-price="500">Selena</li>
                     </ul>
                 </div>
                 <div class="drop_down_list">
                     <span class="list_label">Wybierz kolor</span>
-                    <span class="list_arrow"></span>
+                    <span id="forColor" class="list_arrow"></span>
                     <ul class="list_panel">
                         <li>Czerwony</li>
                         <li>Czarny</li>
@@ -37,7 +38,7 @@
                 </div>
                 <div class="drop_down_list">
                     <span class="list_label">Wybierz materiał</span>
-                    <span class="list_arrow"></span>
+                    <span id="forMaterial" class="list_arrow"></span>
                     <ul class="list_panel">
                         <li>Tkanina</li>
                         <li>Skóra</li>

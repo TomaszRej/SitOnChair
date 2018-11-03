@@ -162,4 +162,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     //koniec slidera
 
+
+
 });
