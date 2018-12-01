@@ -425,8 +425,8 @@ display: flex;
 .go-to-app .container button {
 padding:20px;
     font-size: 20px;
-    background-color: darkgreen;
-    border: 1px solid darkgreen;
+    background-color: #14c8ab;
+    border: 1px solid #14c8ab;
 animation: puls 1s infinite alternate;
 }
 .go-to-app .container button a {
